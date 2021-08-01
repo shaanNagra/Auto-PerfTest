@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import pymongo
 import pandas as pd
 
@@ -60,6 +62,9 @@ def setCallLabels(results):
     except:
         print("")
         return None
+
+
+
 def connect(url='localhost',port=27017,database='mydb'):
     try:
         client = pymongo.MongoClient(url,port)
