@@ -1,0 +1,10 @@
+
+index,name,x,y
+1, 'method login',1626524516594.0,1626524516594.0 
+2,'sub meteor.loginServiceConfiguration',1626524516595.0,1626524516595.0 
+3,'sub meteor_autoupdate_clientVersions',1626524516596.0,1626524516596.0 
+4,'sub tasks',1626524516640.0,1626524516640.0 
+5, 'method tasks.setIsChecked',1626524519752.0,1626524519752.0 
+6, 'method tasks.remove',1626524522665.0,1626524522665.0 
+7, 'method tasks.insert',1626524526764.0,1626524526764.0 
+8, 'method tasks.insert',1626524536391.0,1626524536391.0 

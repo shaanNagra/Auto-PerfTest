@@ -1,0 +1,16 @@
+
+@attribute operation STRING
+@attribute time NUMERIC
+
+@data
+sub meteor.loginServiceConfiguration,1626524484151.0 
+sub meteor_autoupdate_clientVersions,1626524484152.0 
+method login,1626524487561.0 
+method login,1626524493584.0 
+sub tasks,1626524493676.0 
+method tasks.setIsChecked,1626524495424.0 
+method logout,1626524497530.0 
+method login,1626524500559.0 
+sub tasks,1626524500662.0 
+method tasks.setIsChecked,1626524512233.0 
+method tasks.remove,1626524514586.0 

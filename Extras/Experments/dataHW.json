@@ -1,0 +1,1839 @@
+[
+    {
+        "_id" : "todoapp1693_1626524424986",
+        "webapp" : "60f2bd7437deceb0424afa3b",
+        "user_session_id" : "1693_1626524424986",
+        "app_versoin" : "1.0",
+	"sessionOps":[
+		    {
+			"_id" : "60f2cb095b754324cd52c980",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524425060.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "1",
+			    "method" : "login",
+			    "params" : [ 
+				{
+				    "resume" : "wlENubYn5zlMz-Nz0VuJChQPgyHZ8J1Z24Rj1eTcskC"
+				}
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb095b754324cd52c981",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524425061.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "29jHWLFse37j5N2b2",
+			    "name" : "meteor.loginServiceConfiguration",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb095b754324cd52c982",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524425062.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "QyyzPrckJYrtoYbTQ",
+			    "name" : "meteor_autoupdate_clientVersions",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb095b754324cd52c983",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524425093.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "FSJ5D7Wujegmi5wXJ",
+			    "name" : "tasks",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb105b754324cd52c984",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524432202.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "7",
+			    "method" : "tasks.setIsChecked",
+			    "params" : [ 
+				"D6xQ4f4yncY4wy2Jp", 
+				true
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb125b754324cd52c985",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524434257.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "9",
+			    "method" : "tasks.setIsChecked",
+			    "params" : [ 
+				"S6m24Cx8aukGt92pk", 
+				true
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb155b754324cd52c986",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524437377.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "11",
+			    "method" : "tasks.remove",
+			    "params" : [ 
+				"S6m24Cx8aukGt92pk"
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb185b754324cd52c987",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524440392.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "13",
+			    "method" : "logout",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb1c5b754324cd52c988",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524444094.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "15",
+			    "method" : "login",
+			    "params" : [ 
+				{
+				    "user" : {
+				        "username" : "meteorite"
+				    },
+				    "password" : {
+				        "digest" : "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+				        "algorithm" : "sha-256"
+				    }
+				}
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb1c5b754324cd52c989",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524444204.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "QuQtZ7w5NisacHy58",
+			    "name" : "tasks",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb215b754324cd52c98a",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524449198.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "18",
+			    "method" : "tasks.insert",
+			    "params" : [ 
+				"safd"
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb245b754324cd52c98b",
+			"session_id" : "todoapp1693_1626524424986",
+			"timestamp" : 1626524452422.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "20",
+			    "method" : "logout",
+			    "params" : []
+			}
+		    }
+		]
+    },
+    {
+        "_id" : "todoapp7727_1626524455296",
+        "webapp" : "60f2bd7437deceb0424afa3b",
+        "user_session_id" : "7727_1626524455296",
+        "app_versoin" : "1.0",
+	"sessionOps" :[
+		    {
+			"_id" : "60f2cb275b754324cd52c98c",
+			"session_id" : "todoapp7727_1626524455296",
+			"timestamp" : 1626524455406.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "fetBEs8y9wp5Gvyyv",
+			    "name" : "meteor.loginServiceConfiguration",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb275b754324cd52c98d",
+			"session_id" : "todoapp7727_1626524455296",
+			"timestamp" : 1626524455408.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "9HQB8pbzj2PTSRgaC",
+			    "name" : "meteor_autoupdate_clientVersions",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb2b5b754324cd52c98e",
+			"session_id" : "todoapp7727_1626524455296",
+			"timestamp" : 1626524459310.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "4",
+			    "method" : "login",
+			    "params" : [ 
+				{
+				    "user" : {
+				        "username" : "meteorite"
+				    },
+				    "password" : {
+				        "digest" : "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+				        "algorithm" : "sha-256"
+				    }
+				}
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb2b5b754324cd52c98f",
+			"session_id" : "todoapp7727_1626524455296",
+			"timestamp" : 1626524459427.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "S8iCTqt2PYJZ6xDeF",
+			    "name" : "tasks",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb2f5b754324cd52c990",
+			"session_id" : "todoapp7727_1626524455296",
+			"timestamp" : 1626524463183.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "7",
+			    "method" : "tasks.remove",
+			    "params" : [ 
+				"D6xQ4f4yncY4wy2Jp"
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb305b754324cd52c991",
+			"session_id" : "todoapp7727_1626524455296",
+			"timestamp" : 1626524464411.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "9",
+			    "method" : "tasks.setIsChecked",
+			    "params" : [ 
+				"m3sHdZm9Nbg7xas3h", 
+				true
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb325b754324cd52c992",
+			"session_id" : "todoapp7727_1626524455296",
+			"timestamp" : 1626524466016.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "11",
+			    "method" : "tasks.setIsChecked",
+			    "params" : [ 
+				"5kuLubqNtAM4h7PDG", 
+				true
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb365b754324cd52c993",
+			"session_id" : "todoapp7727_1626524455296",
+			"timestamp" : 1626524470778.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "13",
+			    "method" : "tasks.insert",
+			    "params" : [ 
+				"fsadfh"
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb3d5b754324cd52c994",
+			"session_id" : "todoapp7727_1626524455296",
+			"timestamp" : 1626524477050.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "15",
+			    "method" : "tasks.setIsChecked",
+			    "params" : [ 
+				"AbHReLz3XuT2kpvGc", 
+				false
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb3e5b754324cd52c995",
+			"session_id" : "todoapp7727_1626524455296",
+			"timestamp" : 1626524478902.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "17",
+			    "method" : "logout",
+			    "params" : []
+			}
+		    }
+		]
+    },
+    {
+        "_id" : "todoapp8642_1626524484024",
+        "webapp" : "60f2bd7437deceb0424afa3b",
+        "user_session_id" : "8642_1626524484024",
+        "app_versoin" : "1.0",
+	"sessionOps" :[
+		    {
+			"_id" : "60f2cb445b754324cd52c996",
+			"session_id" : "todoapp8642_1626524484024",
+			"timestamp" : 1626524484151.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "8wgxXJ7GZ8zSpviHR",
+			    "name" : "meteor.loginServiceConfiguration",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb445b754324cd52c997",
+			"session_id" : "todoapp8642_1626524484024",
+			"timestamp" : 1626524484152.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "N7ubFDosScscD7gte",
+			    "name" : "meteor_autoupdate_clientVersions",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb475b754324cd52c998",
+			"session_id" : "todoapp8642_1626524484024",
+			"timestamp" : 1626524487561.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "4",
+			    "method" : "login",
+			    "params" : [ 
+				{
+				    "user" : {
+				        "username" : "mary"
+				    },
+				    "password" : {
+				        "digest" : "0b14d501a594442a01c6859541bcb3e8164d183d32937b851835442f69d5c94e",
+				        "algorithm" : "sha-256"
+				    }
+				}
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb4d5b754324cd52c999",
+			"session_id" : "todoapp8642_1626524484024",
+			"timestamp" : 1626524493584.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "6",
+			    "method" : "login",
+			    "params" : [ 
+				{
+				    "user" : {
+				        "username" : "meteorite"
+				    },
+				    "password" : {
+				        "digest" : "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+				        "algorithm" : "sha-256"
+				    }
+				}
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb4d5b754324cd52c99a",
+			"session_id" : "todoapp8642_1626524484024",
+			"timestamp" : 1626524493676.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "vi5AmQj38Qz86qaHD",
+			    "name" : "tasks",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb4f5b754324cd52c99b",
+			"session_id" : "todoapp8642_1626524484024",
+			"timestamp" : 1626524495424.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "9",
+			    "method" : "tasks.setIsChecked",
+			    "params" : [ 
+				"Csb4qQEwXeSoMvuTH", 
+				true
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb515b754324cd52c99c",
+			"session_id" : "todoapp8642_1626524484024",
+			"timestamp" : 1626524497530.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "11",
+			    "method" : "logout",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb545b754324cd52c99d",
+			"session_id" : "todoapp8642_1626524484024",
+			"timestamp" : 1626524500559.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "13",
+			    "method" : "login",
+			    "params" : [ 
+				{
+				    "user" : {
+				        "username" : "meteorite"
+				    },
+				    "password" : {
+				        "digest" : "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+				        "algorithm" : "sha-256"
+				    }
+				}
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb545b754324cd52c99e",
+			"session_id" : "todoapp8642_1626524484024",
+			"timestamp" : 1626524500662.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "JeCQCBDN6DF3mTswr",
+			    "name" : "tasks",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb605b754324cd52c99f",
+			"session_id" : "todoapp8642_1626524484024",
+			"timestamp" : 1626524512233.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "16",
+			    "method" : "tasks.setIsChecked",
+			    "params" : [ 
+				"5kuLubqNtAM4h7PDG", 
+				false
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb625b754324cd52c9a0",
+			"session_id" : "todoapp8642_1626524484024",
+			"timestamp" : 1626524514586.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "18",
+			    "method" : "tasks.remove",
+			    "params" : [ 
+				"5kuLubqNtAM4h7PDG"
+			    ]
+			}
+		    }
+		]
+    },
+    {
+        "_id" : "huri10645_1627202709231",
+        "webapp" : "60f2bd7437deceb0424afa3b",
+        "user_session_id" : "10645_1627202709231",
+        "app_versoin" : "1.0",
+	"sessionOps" :[
+		    {
+  "_id": "60fd2495de168f9815908258",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202709249.0,
+  "operation": {
+    "msg": "sub",
+    "id": "jbCRXTyqNaBpNEKDR",
+    "name": "allDiscussions",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2495de168f9815908259",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202709253.0,
+  "operation": {
+    "msg": "sub",
+    "id": "eJ6oAa5Hxeuf8otEX",
+    "name": "groups",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2495de168f981590825a",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202709259.0,
+  "operation": {
+    "msg": "sub",
+    "id": "ZWC5ydyksq4YbCY7E",
+    "name": "users",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2495de168f981590825b",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202709451.0,
+  "operation": {
+    "msg": "sub",
+    "id": "pJiSoEhnwuyJiMgh2",
+    "name": "meteor.loginServiceConfiguration",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2495de168f981590825c",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202709451.0,
+  "operation": {
+    "msg": "sub",
+    "id": "Tt3kmYeNyqGDR3pj4",
+    "name": "_roles",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2495de168f981590825d",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202709452.0,
+  "operation": {
+    "msg": "sub",
+    "id": "QTzdvABm4Zx5ehvYg",
+    "name": "meteor_autoupdate_clientVersions",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2495de168f981590825e",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202709453.0,
+  "operation": {
+    "msg": "sub",
+    "id": "jbCRXTyqNaBpNEKDR",
+    "name": "allDiscussions",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2495de168f981590825f",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202709455.0,
+  "operation": {
+    "msg": "sub",
+    "id": "eJ6oAa5Hxeuf8otEX",
+    "name": "groups",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2495de168f9815908260",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202709456.0,
+  "operation": {
+    "msg": "sub",
+    "id": "ZWC5ydyksq4YbCY7E",
+    "name": "users",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2498de168f9815908261",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202712185.0,
+  "operation": {
+    "msg": "sub",
+    "id": "Cv6g9crvCHeDBPfvk",
+    "name": "groups",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2498de168f9815908262",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202712199.0,
+  "operation": {
+    "msg": "sub",
+    "id": "yYS8xdS4nbQPQWY9q",
+    "name": "users",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2499de168f9815908263",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202713670.0,
+  "operation": {
+    "msg": "sub",
+    "id": "nTCRja2p2pBMbRmoz",
+    "name": "groups",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd2499de168f9815908264",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202713682.0,
+  "operation": {
+    "msg": "sub",
+    "id": "DuTrwDqEAnySTG9ou",
+    "name": "users",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd249ede168f9815908265",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202718896.0,
+  "operation": {
+    "msg": "sub",
+    "id": "5MA6wRPwLGWYRRcmT",
+    "name": "groups",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd249ede168f9815908266",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202718915.0,
+  "operation": {
+    "msg": "sub",
+    "id": "e2rePrdo74LCDHRmR",
+    "name": "users",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f9815908267",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725603.0,
+  "operation": {
+    "msg": "method",
+    "method": "login",
+    "params": [
+      {
+        "user": {
+          "username": "mary"
+        },
+        "password": {
+          "digest": "0b14d501a594442a01c6859541bcb3e8164d183d32937b851835442f69d5c94e",
+          "algorithm": "sha-256"
+        }
+      }
+    ],
+    "id": "17"
+  }
+},{
+  "_id": "60fd24a5de168f9815908268",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725765.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "ADMIN"
+    ],
+    "id": "19"
+  }
+},{
+  "_id": "60fd24a5de168f9815908269",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725765.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "RESEARCHER"
+    ],
+    "id": "20"
+  }
+},{
+  "_id": "60fd24a5de168f981590826a",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725766.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "21"
+  }
+},{
+  "_id": "60fd24a5de168f981590826b",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725727.0,
+  "operation": {
+    "msg": "sub",
+    "id": "c8HPprezJp3DMoJ4K",
+    "name": "roles",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f981590826c",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725728.0,
+  "operation": {
+    "msg": "sub",
+    "id": "K6tHkhwa7BsprhGCr",
+    "name": "allDiscussions",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f981590826d",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725728.0,
+  "operation": {
+    "msg": "sub",
+    "id": "CY5Z6wcNMGz6AsPau",
+    "name": "scenarios",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f981590826e",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725728.0,
+  "operation": {
+    "msg": "sub",
+    "id": "pmtryiRibBKH9pzkd",
+    "name": "scenarioSets",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f981590826f",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725728.0,
+  "operation": {
+    "msg": "sub",
+    "id": "fafZ5sZdp7rGbK3n8",
+    "name": "discussionTemplates",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f9815908270",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725728.0,
+  "operation": {
+    "msg": "sub",
+    "id": "6gxd8XiLyQqkPp5vu",
+    "name": "experiments",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f9815908271",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725729.0,
+  "operation": {
+    "msg": "sub",
+    "id": "Y7GC7nLLqyoMiRMnh",
+    "name": "users",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f9815908272",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725790.0,
+  "operation": {
+    "msg": "method",
+    "method": "personality.getRandomQuestion",
+    "params": [
+      
+    ],
+    "id": "32"
+  }
+},{
+  "_id": "60fd24a5de168f9815908273",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725792.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "ADMIN"
+    ],
+    "id": "34"
+  }
+},{
+  "_id": "60fd24a5de168f9815908274",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725793.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "RESEARCHER"
+    ],
+    "id": "36"
+  }
+},{
+  "_id": "60fd24a5de168f9815908275",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725794.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "38"
+  }
+},{
+  "_id": "60fd24a5de168f9815908276",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725794.0,
+  "operation": {
+    "msg": "sub",
+    "id": "K7KMqWpmPMYYxRhHx",
+    "name": "roles",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f9815908277",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725794.0,
+  "operation": {
+    "msg": "sub",
+    "id": "RB3nY6LPG53x3XBRY",
+    "name": "allDiscussions",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f9815908278",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725794.0,
+  "operation": {
+    "msg": "sub",
+    "id": "YMeqWRZvSqdknzAD9",
+    "name": "groups",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f9815908279",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725795.0,
+  "operation": {
+    "msg": "sub",
+    "id": "bp8BWCDkrZW2qfFAZ",
+    "name": "scenarios",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f981590827a",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725795.0,
+  "operation": {
+    "msg": "sub",
+    "id": "8r6Lq6vk4XQXSDH8h",
+    "name": "scenarioSets",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f981590827b",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725795.0,
+  "operation": {
+    "msg": "sub",
+    "id": "oyoqEcM4uSTQvKXLB",
+    "name": "discussionTemplates",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f981590827c",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725796.0,
+  "operation": {
+    "msg": "sub",
+    "id": "gkbjxsBumNmL8W3rm",
+    "name": "experiments",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f981590827d",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725796.0,
+  "operation": {
+    "msg": "sub",
+    "id": "sak5ZEKjW5EeHcm2d",
+    "name": "users",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f981590827e",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725799.0,
+  "operation": {
+    "msg": "sub",
+    "id": "vTN7FiXDTW9zJTo4c",
+    "name": "groups",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f981590827f",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725802.0,
+  "operation": {
+    "msg": "sub",
+    "id": "yNRysFWc7c7vPvL9u",
+    "name": "users",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24a5de168f9815908280",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725833.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "ADMIN"
+    ],
+    "id": "50"
+  }
+},{
+  "_id": "60fd24a5de168f9815908281",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725833.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "RESEARCHER"
+    ],
+    "id": "52"
+  }
+},{
+  "_id": "60fd24a5de168f9815908282",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725834.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "54"
+  }
+},{
+  "_id": "60fd24a5de168f9815908283",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725838.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "ADMIN"
+    ],
+    "id": "56"
+  }
+},{
+  "_id": "60fd24a6de168f9815908284",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725838.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "RESEARCHER"
+    ],
+    "id": "58"
+  }
+},{
+  "_id": "60fd24a6de168f9815908285",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725839.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "60"
+  }
+},{
+  "_id": "60fd24a6de168f9815908286",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725876.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "ADMIN"
+    ],
+    "id": "62"
+  }
+},{
+  "_id": "60fd24a6de168f9815908287",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725877.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "RESEARCHER"
+    ],
+    "id": "64"
+  }
+},{
+  "_id": "60fd24a6de168f9815908288",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725877.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "66"
+  }
+},{
+  "_id": "60fd24a6de168f9815908289",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725905.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "ADMIN"
+    ],
+    "id": "68"
+  }
+},{
+  "_id": "60fd24a6de168f981590828a",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725906.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "RESEARCHER"
+    ],
+    "id": "70"
+  }
+},{
+  "_id": "60fd24a6de168f981590828b",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202725906.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "72"
+  }
+},{
+  "_id": "60fd24a6de168f981590828c",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202726003.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "ADMIN"
+    ],
+    "id": "74"
+  }
+},{
+  "_id": "60fd24a6de168f981590828d",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202726003.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "RESEARCHER"
+    ],
+    "id": "76"
+  }
+},{
+  "_id": "60fd24a6de168f981590828e",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202726004.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "78"
+  }
+},{
+  "_id": "60fd24a6de168f981590828f",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202726028.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "ADMIN"
+    ],
+    "id": "80"
+  }
+},{
+  "_id": "60fd24a6de168f9815908290",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202726029.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "RESEARCHER"
+    ],
+    "id": "82"
+  }
+},{
+  "_id": "60fd24a6de168f9815908291",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202726030.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "84"
+  }
+},{
+  "_id": "60fd24a6de168f9815908292",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202726054.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "ADMIN"
+    ],
+    "id": "86"
+  }
+},{
+  "_id": "60fd24a6de168f9815908293",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202726055.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "RESEARCHER"
+    ],
+    "id": "88"
+  }
+},{
+  "_id": "60fd24a6de168f9815908294",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202726055.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "90"
+  }
+},{
+  "_id": "60fd24aede168f9815908295",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734500.0,
+  "operation": {
+    "msg": "sub",
+    "id": "Whw4xEHua3r3abZZH",
+    "name": "users",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24aede168f9815908296",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734502.0,
+  "operation": {
+    "msg": "sub",
+    "id": "otEA3PcFPRwDi9WAg",
+    "name": "mountains",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24aede168f9815908297",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734503.0,
+  "operation": {
+    "msg": "sub",
+    "id": "ogaJzduHxaGaWyyBF",
+    "name": "rivers",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24aede168f9815908298",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734505.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "95"
+  }
+},{
+  "_id": "60fd24aede168f9815908299",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734508.0,
+  "operation": {
+    "msg": "sub",
+    "id": "Jti3wy64dho6fuyWH",
+    "name": "groups",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24aede168f981590829a",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734627.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "98"
+  }
+},{
+  "_id": "60fd24aede168f981590829b",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734677.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "100"
+  }
+},{
+  "_id": "60fd24aede168f981590829c",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734684.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "102"
+  }
+},{
+  "_id": "60fd24aede168f981590829d",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734739.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "104"
+  }
+},{
+  "_id": "60fd24aede168f981590829e",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734753.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "106"
+  }
+},{
+  "_id": "60fd24aede168f981590829f",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734797.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "108"
+  }
+},{
+  "_id": "60fd24aede168f98159082a0",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734829.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "110"
+  }
+},{
+  "_id": "60fd24aede168f98159082a1",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734842.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "112"
+  }
+},{
+  "_id": "60fd24aede168f98159082a2",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734876.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "114"
+  }
+},{
+  "_id": "60fd24aede168f98159082a3",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734902.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "116"
+  }
+},{
+  "_id": "60fd24aede168f98159082a4",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734945.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "118"
+  }
+},{
+  "_id": "60fd24aede168f98159082a5",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202734983.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "120"
+  }
+},{
+  "_id": "60fd24afde168f98159082a6",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202735034.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "122"
+  }
+},{
+  "_id": "60fd24afde168f98159082a7",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202735043.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "124"
+  }
+},{
+  "_id": "60fd24afde168f98159082a8",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202735073.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "126"
+  }
+},{
+  "_id": "60fd24afde168f98159082a9",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202735103.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "128"
+  }
+},{
+  "_id": "60fd24afde168f98159082aa",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202735181.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "130"
+  }
+},{
+  "_id": "60fd24afde168f98159082ab",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202735227.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "Jck4JupztedG2Q838",
+      "PARTICIPANT_I"
+    ],
+    "id": "132"
+  }
+},{
+  "_id": "60fd24b3de168f98159082ac",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202738914.0,
+  "operation": {
+    "msg": "method",
+    "method": "logout",
+    "params": [
+      
+    ],
+    "id": "134"
+  }
+},{
+  "_id": "60fd24b3de168f98159082ad",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202738921.0,
+  "operation": {
+    "msg": "sub",
+    "id": "5D995JiGwgYxoP5xK",
+    "name": "allDiscussions",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24b3de168f98159082ae",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202738927.0,
+  "operation": {
+    "msg": "sub",
+    "id": "RajADSKYWC6uemsbY",
+    "name": "groups",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24b3de168f98159082af",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202738937.0,
+  "operation": {
+    "msg": "sub",
+    "id": "pux3eCSsE4gsbBktn",
+    "name": "users",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24b7de168f98159082b0",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202743673.0,
+  "operation": {
+    "msg": "sub",
+    "id": "KhmYbiQMxHmDmvyCu",
+    "name": "users",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24b7de168f98159082b1",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202743674.0,
+  "operation": {
+    "msg": "sub",
+    "id": "YZ7pP2FNLywGqeZiK",
+    "name": "mountains",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24b7de168f98159082b2",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202743674.0,
+  "operation": {
+    "msg": "sub",
+    "id": "Fh7dnnHf96GStvy53",
+    "name": "rivers",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24b7de168f98159082b3",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202743675.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "None",
+      "PARTICIPANT_I"
+    ],
+    "id": "142"
+  }
+},{
+  "_id": "60fd24b7de168f98159082b4",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202743676.0,
+  "operation": {
+    "msg": "sub",
+    "id": "aFSPpyXtr3J5i2ngp",
+    "name": "groups",
+    "params": [
+      
+    ]
+  }
+},{
+  "_id": "60fd24b7de168f98159082b5",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202743741.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "None",
+      "PARTICIPANT_I"
+    ],
+    "id": "145"
+  }
+},{
+  "_id": "60fd24b7de168f98159082b6",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202743818.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "None",
+      "PARTICIPANT_I"
+    ],
+    "id": "147"
+  }
+},{
+  "_id": "60fd24b7de168f98159082b7",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202743849.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "None",
+      "PARTICIPANT_I"
+    ],
+    "id": "149"
+  }
+},{
+  "_id": "60fd24b7de168f98159082b8",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202743954.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "None",
+      "PARTICIPANT_I"
+    ],
+    "id": "151"
+  }
+},{
+  "_id": "60fd24b7de168f98159082b9",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202743981.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "None",
+      "PARTICIPANT_I"
+    ],
+    "id": "153"
+  }
+},{
+  "_id": "60fd24b8de168f98159082ba",
+  "session_id": "huri10645_1627202709231",
+  "timestamp": 1627202744102.0,
+  "operation": {
+    "msg": "method",
+    "method": "security.hasRole",
+    "params": [
+      "None",
+      "PARTICIPANT_I"
+    ],
+    "id": "155"
+  }
+}
+		]
+    },
+    {
+        "_id" : "todoapp9407_1626524540445",
+        "webapp" : "60f2bd7437deceb0424afa3b",
+        "user_session_id" : "9407_1626524540445",
+        "app_versoin" : "1.0",
+	"sessionOps" : [
+		    {
+			"_id" : "60f2cb7c5b754324cd52c9a9",
+			"session_id" : "todoapp9407_1626524540445",
+			"timestamp" : 1626524540640.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "1",
+			    "method" : "login",
+			    "params" : [ 
+				{
+				    "resume" : "HyNt-MGkkAFORzmbR327w2La379xktvbz5r2pvibeeN"
+				}
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb7c5b754324cd52c9aa",
+			"session_id" : "todoapp9407_1626524540445",
+			"timestamp" : 1626524540642.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "3ib23tfLCpBrpPjAk",
+			    "name" : "meteor.loginServiceConfiguration",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb7c5b754324cd52c9ab",
+			"session_id" : "todoapp9407_1626524540445",
+			"timestamp" : 1626524540643.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "5jMTgNpGew7r5twWh",
+			    "name" : "meteor_autoupdate_clientVersions",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb7c5b754324cd52c9ac",
+			"session_id" : "todoapp9407_1626524540445",
+			"timestamp" : 1626524540655.0,
+			"operation" : {
+			    "msg" : "sub",
+			    "id" : "bEAtCugGKthXKpx9E",
+			    "name" : "tasks",
+			    "params" : []
+			}
+		    },
+		    {
+			"_id" : "60f2cb805b754324cd52c9ad",
+			"session_id" : "todoapp9407_1626524540445",
+			"timestamp" : 1626524544371.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "7",
+			    "method" : "tasks.setIsChecked",
+			    "params" : [ 
+				"mwyg6S8BP5vXx6XTz", 
+				true
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb815b754324cd52c9ae",
+			"session_id" : "todoapp9407_1626524540445",
+			"timestamp" : 1626524545900.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "9",
+			    "method" : "tasks.remove",
+			    "params" : [ 
+				"mwyg6S8BP5vXx6XTz"
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb865b754324cd52c9af",
+			"session_id" : "todoapp9407_1626524540445",
+			"timestamp" : 1626524550017.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "11",
+			    "method" : "tasks.remove",
+			    "params" : [ 
+				"Csb4qQEwXeSoMvuTH"
+			    ]
+			}
+		    },
+		    {
+			"_id" : "60f2cb895b754324cd52c9b0",
+			"session_id" : "todoapp9407_1626524540445",
+			"timestamp" : 1626524553491.0,
+			"operation" : {
+			    "msg" : "method",
+			    "id" : "13",
+			    "method" : "logout",
+			    "params" : []
+			}
+		    }
+		]
+    }
+]
