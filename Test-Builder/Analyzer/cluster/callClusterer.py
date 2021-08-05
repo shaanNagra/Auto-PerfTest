@@ -9,7 +9,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import StandardScaler
 
-def clusterCalls(data):
+def cluster(data,filePath=None):
     try:
         print(data.head())
         random.seed(1297541)
@@ -35,21 +35,23 @@ def clusterCalls(data):
             if score > hscore:
                 hscore = score
                 bestK = k
-        
-        plt.plot(range(2, kmax), s)
-        plt.xticks(range(2, kmax))
-        plt.xlabel("Number of Clusters")
-        plt.ylabel("Silhouette Coefficient")
-        plt.savefig('fo1o.png')
-
+        if filePath is not None:
+            plt.close()
+            plt.plot(range(2, kmax), s)
+            plt.xticks(range(2, kmax))
+            plt.xlabel("Number of Clusters")
+            plt.ylabel("Silhouette Coefficient")
+            plt.savefig(filePath+'_SilhouetteCoefficient.svg')
+            plt.close()
         print(str(hscore)+"   "+str(bestK))
 
         clusterLables = KMeans(n_clusters=bestK+2, random_state=random.randint(0,1000)).fit_predict(scaledData)
         
-        plt.close()
-        plt.scatter(data['x'], data['y'], c=clusterLables, s=2,alpha=0.5)
-        plt.autoscale(enable=True, axis='y')
-        plt.savefig('foo.svg')
+        if filePath is not None:
+            plt.scatter(data['x'], data['y'], c=clusterLables, s=2,alpha=0.5)
+            plt.autoscale(enable=True, axis='y')
+            plt.savefig(filePath+'_Results.svg')
+            plt.close()
         
         data['clusterGroup'] = clusterLables
         return data.to_records(index=False)
@@ -57,5 +59,5 @@ def clusterCalls(data):
     except:
         return None
 
-res = clusterCalls(DBInterface.getSingleSession('todoapp7488_1627653489854'))
-DBInterface.setCallLabels(res)
+# res = clusterCalls(DBInterface.getSingleSession('todoapp7488_1627653489854'))
+# DBInterface.setCallLabels(res)

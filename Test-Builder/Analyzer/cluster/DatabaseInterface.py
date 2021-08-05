@@ -3,13 +3,15 @@
 import pymongo
 import pandas as pd
 
-
-def getNewSessionIDs(webappID):
+# def getNewSessionIDs(webappID):
+def getNewSessions(webappID):
     client = connect()
     try:
         res = []
-        data = client.sessions.find({'webapp':webappID,'processed':'false'})
+        data = client.sessions.find({'webapp':webappID,'processed':False})
+        # data = client.sessions.find({'webapp':webappID})
         for session in data:
+            # print("s"+str(session))
             res.append(session.get('_id'))
         return res
     except:
@@ -17,8 +19,8 @@ def getNewSessionIDs(webappID):
         return None
 
 
-
-def getSingleSession(session_id=" "):
+# def getCallsDataFrame(session_id=" "):
+def getSessionCalls(session_id=" "):
     
     client = connect()
     try:
@@ -33,23 +35,26 @@ def getSingleSession(session_id=" "):
         return None
 
 
-def sessionClustered(session_id):
+def setSessionClusterd(session_id):
     client = connect()
     try:
-        update = { "$set": { "processed": "true" } }
+        update = { "$set": { "processed": True } }
         client.sessions.update_one({"_id":session_id},update)
         return True
     except:
+        print("AHAHAHAHAAH")
         return False
 
-def getSessionsForGrouping():
-    pass
+def setSessionFailed(session_id):
+    client = connect()
+    try:
+        update = { "$set": { "processed": None } }
+        client.sessions.update_one({"_id":session_id},update)
+        return True
+    except:
+        print("AHAHAHAHAAH")
+        return False
 
-def setNewGroups():
-    pass
-
-def setSessionStateTransfers():
-    pass
 
 def setCallLabels(results):
     client = connect()
@@ -60,10 +65,8 @@ def setCallLabels(results):
         bulk.execute()
         return True
     except:
-        print("")
+        print("AHHHHHH")
         return None
-
-
 
 def connect(url='localhost',port=27017,database='mydb'):
     try:
