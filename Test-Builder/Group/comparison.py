@@ -57,6 +57,9 @@ def clusterMulti(clusterList):
     print(length)
     for k,v in counter.items():
         print(str(k) +'  =>   '+ str(v))
+
+
+        
 # l1 = ['m','b','d','i','i','i']
 # l2 = ['c','i','a','d','d','t']
 

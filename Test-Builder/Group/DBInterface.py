@@ -4,6 +4,7 @@ import pymongo
 import pandas as pd
 
 def getCallsList(session_id=""):
+    """ """
     client = connect()
     try:
         data = client.calls.find({'session_id':session_id}).sort("time")
@@ -19,6 +20,12 @@ def getCallsList(session_id=""):
 
 
 def getClusteredSessions(webappID,version):
+    """
+    def: get all IDs of sessions of given webapp logged at given version
+
+    returns:
+        List [session._id]
+    """
     client = connect()
     # try:
     res = []
@@ -33,6 +40,16 @@ def getClusteredSessions(webappID,version):
 
 
 def getSessionsForGrouping(session_id):
+    """
+    def: get all calls for session grouped by cluster label
+    
+    returns: 
+        dict
+            key:
+                label
+            value:
+                List[   dict{ operation, time, message} ]
+    """
     client = connect()
     # try:
     data = client.calls.find({'session_id':session_id}).sort("time")
