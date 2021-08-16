@@ -2,7 +2,6 @@
 
 import pymongo
 import pandas as pd
-from pymongo import message
 
 def getCallsList(session_id=""):
     client = connect()
