@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import DBInterface as DBI
+import db_functions.db_api_group as DBI
 import comparison
 from bson import ObjectId
 
