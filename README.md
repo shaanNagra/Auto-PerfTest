@@ -51,7 +51,7 @@ Auto-PerfTest
  ┃ ┃ ┃ ┣ Graphs
  ┃ ┃ ┃ ┗ notebook.ipynb
  ┃ ┃ ┃
- ┃ ┃ ┣ log_2_
+ ┃ ┃ ┣ log_2_test
  ┃ ┃ ┃ ┣ BasicElementBuilder.py
  ┃ ┃ ┃ ┣ constants.py
  ┃ ┃ ┃ ┣ elemBuilder.py

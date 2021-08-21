@@ -2,8 +2,9 @@
 
 import pymongo
 import pandas as pd
-import db_conn
-from db_constants import AppCol,SessionCol,CallCol
+
+from . import db_conn
+from .db_constants import SessionCol,CallCol
 
 # ////////////////FILE DESCRIPTION/////////////////
 # functions that interact with the mongodb database

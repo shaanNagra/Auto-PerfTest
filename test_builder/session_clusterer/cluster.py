@@ -1,14 +1,18 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import numpy as np
 import pandas as pd
-import DBInterface
 import random
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import StandardScaler
 
+from test_builder.db_functions import dbi_cluster as DBI
+
+# ------------------------------------------
+#
+# ------------------------------------------
 def cluster(data,filePath=None):
     try:
         print(data.head())
@@ -59,5 +63,6 @@ def cluster(data,filePath=None):
     except:
         return None
 
+# # NOTE: used to run as a isolated script during testing
 # res = clusterCalls(DBInterface.getSingleSession('todoapp7488_1627653489854'))
 # DBInterface.setCallLabels(res)

@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 import pymongo
-import db_conn
+
+from . import db_conn
 
 # ////////////////FILE DESCRIPTION/////////////////
 # create application document in collection 

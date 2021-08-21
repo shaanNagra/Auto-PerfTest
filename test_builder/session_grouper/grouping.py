@@ -1,9 +1,13 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
-import db_functions.db_api_group as DBI
-import comparison
 from bson import ObjectId
 
+from autonomic_loadtester.db_functions import dbi_group as DBI
+from . import comparison
+
+#------------------------------------------
+# 
+#------------------------------------------
 def GroupSessionsViaVersion(webappID,version):
     sessions = {}
     innerGroups = {}
@@ -27,6 +31,9 @@ def GroupSessionsViaVersion(webappID,version):
                 pass
             pass
 
+#------------------------------------------
+# 
+#------------------------------------------
 def similarClustersInSession(session):
     e = 1
     results = set() 
@@ -55,7 +62,10 @@ def similarClustersInSession(session):
             e +=1
     return results
 
-##
+
+#------------------------------------------
+# 
+#------------------------------------------
 def mergeTuples(set):
     """e.g. if set has (a,b),(b,c),(a,c) => (a,b,c)"""
     for tpl1 in set:
@@ -65,6 +75,9 @@ def mergeTuples(set):
                     if x in tpl2:
                         pass 
 
+#------------------------------------------
+# 
+#------------------------------------------
 def printOpsAcrossTwoSession(s1,s2):
     print('\n\n\n-------------------------')
     for op in s1:
@@ -74,7 +87,9 @@ def printOpsAcrossTwoSession(s1,s2):
         print(op['operation'])
     print('-------------------------\n')
 
-
+#------------------------------------------
+# 
+#------------------------------------------
 def test(id):
     session = DBI.getSessionsForGrouping(id)
     clusterList = []

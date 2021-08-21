@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 import pymongo
-from db_constants import AppCol, Database
+
+from .db_constants import AppCol, Database
 
 # ////////////////FILE DESCRIPTION/////////////////
 # initial Database (Knowledge Base) if it does not exist

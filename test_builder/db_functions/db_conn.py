@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 import pymongo
-from db_constants import Database
+
+from .db_constants import Database
 
 # ////////////////FILE DESCRIPTION/////////////////
 # connects to databse, returns client object that

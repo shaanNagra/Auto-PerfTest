@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 import pymongo
-import db_conn
-import pandas as pd
-from db_constants import SessionCol,CallCol,AppCol
+
+from . import db_conn
+from .db_constants import SessionCol, CallCol
 
 # ////////////////FILE DESCRIPTION/////////////////
 # functions that interact with the mongodb database
@@ -12,20 +12,22 @@ from db_constants import SessionCol,CallCol,AppCol
 # /////////////////////////////////////////////////
 
 
-#------------------------------------------
-# 
-#------------------------------------------
+# ------------------------------------------
+#
+# ------------------------------------------
 def getCallsList(session_id=""):
     """ 
     """
-    
+  
     client = db_conn.connect()
     try:
-        data = client.calls.find({CallCol.session:session_id}).sort(CallCol.time)
+        data = client.calls.find({
+            CallCol.session: session_id
+            }).sort(CallCol.time)
         res = []
 
         for call in data:
-            res+=[{
+            res += [{
                 call.get(CallCol.id),
                 call.get(CallCol.operation),
                 call.get(CallCol.time),
@@ -33,7 +35,7 @@ def getCallsList(session_id=""):
                 call.get(CallCol.label)
                 }]
 
-        print('OUT: ')        
+        print('OUT: ')
         return res
     except :
         print("ERR: could not get data")
