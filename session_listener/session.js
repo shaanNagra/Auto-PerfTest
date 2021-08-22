@@ -1,13 +1,13 @@
 module.exports.init = function (db,data){
-    db.collection("applications").findOne({token:data.temptoken},function(err,result){
+    db.collection("applications").findOne({token:data.token},function(err,result){
         if(result){
-            var id = ""+data.temptoken+data.sessionID;
+            var id = ""+data.token+data.sessionID;
             var doc = {
                 _id:id,
                 webapp:result._id,
                 processed:false,
                 user_session_id:data.sessionID,
-                app_versoin:result.curr_version
+                app_version:result.curr_version
             };
             db.collection("sessions").insertOne(doc,function(err,res){
                 if(err) return false;
@@ -20,7 +20,7 @@ module.exports.init = function (db,data){
 
 module.exports.saveOp = function (db,data){
 
-    var id = ""+data.temptoken+data.sessionID;
+    var id = ""+data.token+data.sessionID;
     if(data.loggedOp.msg== 'sub' || data.loggedOp.msg== 'usub'){
         var operation = data.loggedOp.msg+" "+data.loggedOp.name
     }

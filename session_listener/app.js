@@ -9,14 +9,14 @@ app.use(express.json());
 
 app.post('/session', (req, res) => {
   var result = session.init(db,req.body);
-  return res.send(JSON.stringify("helloworld"));
+  return res.send(JSON.stringify("session initialized"));
 });
 
 
 
 app.post('/operation', (req, res) => {
   var result = session.saveOp(db,req.body)
-  return res.send(JSON.stringify("helloworld"));
+  return res.send(JSON.stringify("function call logged"));
 });
 
 
