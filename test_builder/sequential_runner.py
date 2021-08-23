@@ -8,6 +8,7 @@ from bson.objectid import ObjectId
 from db_functions import db_appID
 from session_clusterer import cluster_new
 from session_grouper import grouping
+from session_validator import validate
 
 # ////////////////FILE DESCRIPTION/////////////////
 # sequentialy runs the the testbuilder module
@@ -31,8 +32,10 @@ def run(app):
 
         time.sleep(3)
         print("-----------------------")
-        grouping.GroupSessionsViaVersion(ObjectId(id), '1.0')
+        listOfGroups = grouping.GroupSessionsViaVersion(ObjectId(id), '1.0')
+        validGroups = validate.validate(listOfGroups)
         print("DONE")
+
 
 if len(sys.argv) != 2:
     print("ERR: please provide a name of application")

@@ -49,8 +49,9 @@ def GroupSessionsViaVersion(webappID, version):
                 #     listOfGroups[sessions].append({sessions:groups})
                 # else:
                 #     pass
-    print("FINALLRESULTS\n\n\n\n")
-    print(listOfGroups)
+    # print("FINALLRESULTS\n\n\n\n")
+    # print(listOfGroups)
+    return listOfGroups
 
 
 # ------------------------------------------
@@ -116,7 +117,7 @@ def clstrMatched(clstr1, clstr2):
 
         # DIFF IS LESS THAN 40%
         diff = comparison.clusterDifference(clstr1, clstr2)
-        if diff <= 40 :
+        if diff <= 40:
             # SIM IS MORE THAN 80%
             sim = comparison.clusterSimilarity(clstr1, clstr2)
             if sim >= 80:

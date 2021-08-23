@@ -42,7 +42,7 @@ def clusterSimilarity(cluster1, cluster2):
 
 
 # ------------------------------------------
-# 
+#
 # ------------------------------------------
 def clusterMulti(clusterList):
     length = 0
