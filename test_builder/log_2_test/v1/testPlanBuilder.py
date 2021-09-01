@@ -8,10 +8,10 @@ import threadGroupBuilder
 
 
 class testPlanBuilder(elemBuilder):
-    def __init__(self,name='Test Plan'):
-        super().__init__(TEST_PLAN,name)
+    def __init__(self, name='Test Plan'):
+        super().__init__(TEST_PLAN, name)
 
-    def configTestPlan(self,comments,func_mode=False,tearDown_on_SD=False,s_tg=False):
+    def configTestPlan(self, comments, func_mode=False, tearDown_on_SD=False, s_tg=False):
         self.Element.find('.//stringProp[@name="TestPlan.comments"]').text = comments
         self.Element.find('.//boolProp[@name="TestPlan.functional_mode"]').text = self.Bool2Bool(func_mode)
         self.Element.find('.//boolProp[@name="TestPlan.tearDown_on_shutdown"]').text = self.Bool2Bool(tearDown_on_SD)

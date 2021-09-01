@@ -49,15 +49,15 @@ JSR223_SAMPLER = '<JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler
 
 ONCE_ONLY_CONTROLLER = '<OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Once Only Controller" enabled="true"/>'
 
-THINK_TIME =  '<TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">'\
+THINK_TIME = '<TestAction guiclass="TestActionGui" testclass="TestAction" testname="Think Time" enabled="true">'\
                 '<intProp name="ActionProcessor.action">1</intProp>'\
                 '<intProp name="ActionProcessor.target">0</intProp>'\
                 '<stringProp name="ActionProcessor.duration">0</stringProp>'\
               '</TestAction>'
 
-UNIFORM_RANDOM_TIMER =  '<UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">'\
-                          '<stringProp name="ConstantTimer.delay">1000</stringProp>'\
-                          '<stringProp name="RandomTimer.range">100</stringProp>'\
+UNIFORM_RANDOM_TIMER = '<UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Pause" enabled="true">'\
+                          '<stringProp name="ConstantTimer.delay"></stringProp>'\
+                          '<stringProp name="RandomTimer.range"></stringProp>'\
                         '</UniformRandomTimer>'
 
 
@@ -66,3 +66,28 @@ RANDOM_CONTROLLER = '<RandomController guiclass="RandomControlGui" testclass="Ra
                     '</RandomController>'
 
 HASH_TREE = '<hashTree/>'
+
+
+TEST_FRAGMENT = '<TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="" enabled="false"/>'
+
+SIMPLE_CONTROLLER = '<GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Simple Controller" enabled="true"/>'
+
+BZM_WEIGHTED_SWITCH_CONTROLLER =    '<com.blazemeter.jmeter.control.WeightedSwitchController guiclass="com.blazemeter.jmeter.control.WeightedSwitchControllerGui" testclass="com.blazemeter.jmeter.control.WeightedSwitchController" testname="Weighted Switch Controller" enabled="true">'\
+                                        '<boolProp name="IsRandomChoice">false</boolProp>'\
+                                        '<collectionProp name="Weights">'\
+                                        '</collectionProp>'\
+                                    '</com.blazemeter.jmeter.control.WeightedSwitchController>'
+
+COLLECTIONPROP = '<collectionProp name="459163952"></collectionProp>'
+STRINGPROP = '<stringProp name="134550548"></stringProp>'
+            # '<stringProp name="48625">100</stringProp>'\
+            # '<stringProp name="3569038">true</stringProp>'\
+                                        
+
+MODULE_CONTROLLER = '<ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="go to A" enabled="true">'\
+                        '<collectionProp name="ModuleController.node_path">'\
+                            '<stringProp name="764597751">Test Plan</stringProp>'\
+                            '<stringProp name="764597751">Test Plan</stringProp>'\
+                            '<stringProp name="-232488878">State A</stringProp>'\
+                        '</collectionProp>'\
+                    '</ModuleController>'

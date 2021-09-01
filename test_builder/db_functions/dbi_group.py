@@ -76,7 +76,7 @@ def getSessionsForGrouping(session_id):
     """
     def: get all calls for session grouped by cluster label
 
-    returns: dict[    key:label   value:List[   dict{ operation, time, message} ]]
+    returns: dict[ key:label value:List[ dict{ operation, time, message} ]]
     """
 
     client = db_conn.connect()
