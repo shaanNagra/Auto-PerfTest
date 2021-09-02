@@ -1,51 +1,11 @@
 #! /usr/bin/env python
 
-
-class State:
-    def __init__(self, Type, calls=[], details=[]):
-        self.type = Type
-        self.nextGroup = {}
-        self.calls = calls
-        self.details = details
-        pass
-
-    def isMatch(self, list):
-        list.sort()
-        self.calls.sort()
-        if self.calls == list:
-            return True
-        return False
-
-    def addToNextGroup(self, index):
-        print("index = "+str(index))
-        if index in self.nextGroup:
-            self.nextGroup[index] += 1
-        else:
-            self.nextGroup[index] = 1
-
-    def printState(self, pointer):
-        print("OUT: ============= STATE ==============")
-        print("OUT: Type = ", self.type)
-        print("OUT: Index = ", pointer, ", Calls = ", self.callsToString())
-        print("OUT: NextStates = ", self.nextGroup)
-        pass
-
-    def callsToString(self):
-        if self.calls is None:
-            return "none"
-        else:
-            return str(self.calls)
-
-    def getCalls(self):
-        return self.calls
-
-    def getDetails(self):
-        return self.details
-
-    def getNextGroup(self):
-        return self.nextGroup
+from state import State
 
 
+# ------------------------------------------
+#
+# ------------------------------------------
 def testBuild(groups, sessionList):
 
     root = State("ROOT")
@@ -85,8 +45,12 @@ def testBuild(groups, sessionList):
 
     for state in states:
         states[state].printState(state)
+    return states
 
 
+# ------------------------------------------
+#
+# ------------------------------------------
 def stateExist(states, list):
     for state in states:
         if states[state].isMatch(list) is True:
@@ -94,10 +58,16 @@ def stateExist(states, list):
     return None
 
 
+# ------------------------------------------
+#
+# ------------------------------------------
 def makeNewSate(list):
     return State("NODE", list)
 
 
+# ------------------------------------------
+#
+# ------------------------------------------
 def findState(groups, session, initialIndex):
 
     occurance = {}
@@ -136,6 +106,9 @@ def findState(groups, session, initialIndex):
     return initialIndex + 1
 
 
+# ------------------------------------------
+#
+# ------------------------------------------
 def stillMatchingGroups(currentlyMatched, operation):
     stillMatched = []
     for grp in range(len(currentlyMatched)):
@@ -145,13 +118,13 @@ def stillMatchingGroups(currentlyMatched, operation):
 
 
 # NOTE: used to run as a isolated script during testing
-group = [
-    ['8 1', '8 2', '9 1', '5 1'],
-    ['8 1', '8 2', '9 1', '5 1', '3 1'],
-    ['2 1', '1 1']
-    ]
-sss = []
-sss.append([8, 8, 9, 5, 3, 2, 1])
-sss.append([8, 8, 9, 5, 3, 2, 1, 8, 9, 8, 5, 2, 1])
-# print(sss)
-testBuild(group, sss)
+# group = [
+#     ['8 1', '8 2', '9 1', '5 1'],
+#     ['8 1', '8 2', '9 1', '5 1', '3 1'],
+#     ['2 1', '1 1']
+#     ]
+# sss = []
+# sss.append([8, 8, 9, 5, 3, 2, 1])
+# sss.append([8, 8, 9, 5, 3, 2, 1, 8, 9, 8, 5, 2, 1])
+# # print(sss)
+# testBuild(group, sss)
