@@ -2,7 +2,7 @@
 
 import lxml.etree as ET
 
-from constants import HASH_TREE
+from .constants import HASH_TREE
 
 
 class BaseElem:

@@ -2,8 +2,8 @@
 
 # import lxml.etree as ET
 
-from internal.super import BaseElem
-from internal.constants import TEST_PLAN
+from jmx_api.internal.super import BaseElem
+from jmx_api.internal.constants import TEST_PLAN
 
 
 class testPlanBuilder(BaseElem):

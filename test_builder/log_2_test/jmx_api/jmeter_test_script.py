@@ -2,7 +2,7 @@
 
 import lxml.etree as ET
 
-from internal.constants import HASH_TREE
+from jmx_api.internal.constants import HASH_TREE
 
 
 class jmeterTestPlanBuilder:

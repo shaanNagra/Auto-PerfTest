@@ -85,8 +85,8 @@ STRINGPROP = '<stringProp name="134550548"></stringProp>'
 
 MODULE_CONTROLLER = '<ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="go to A" enabled="true">'\
                         '<collectionProp name="ModuleController.node_path">'\
-                            '<stringProp name="764597751">Test Plan</stringProp>'\
-                            '<stringProp name="764597751">Test Plan</stringProp>'\
-                            '<stringProp name="-232488878">State A</stringProp>'\
                         '</collectionProp>'\
                     '</ModuleController>'
+                    # '<stringProp name="764597751">Test Plan</stringProp>'\
+                    # '<stringProp name="764597751">Test Plan</stringProp>'\
+                    # '<stringProp name="-232488878">State A</stringProp>'\

@@ -2,10 +2,10 @@
 
 # import lxml.etree as ET
 
-from internal.super import BaseElem
-from internal.constants import THINK_TIME
+from jmx_api.internal.super import BaseElem
+from jmx_api.internal.constants import THINK_TIME
 
 
-class BuildElement(BaseElem):
+class ThinkTime(BaseElem):
     def __init__(self, name='think time'):
         super().__init__(THINK_TIME, name)
